@@ -108,7 +108,7 @@ class PersonTest {
 
     @Test
     void testToString() {
-        String expected = "Person{ID='00000A', firstName='Blake', lastName='Szalapski', title='Mr.', YOB=2002}";
+        String expected = "00000A, Blake, Szalapski, Mr., 2002";
         assertEquals(expected, p1.toString());
     }
 
